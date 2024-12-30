@@ -126,6 +126,11 @@ const routes = [
         name:'Demo',
         component:()=>import('@/views/Demo/index.vue')
       },
+      {
+        path:'/log-lottery/setPrice',
+        name:'SetPrice',
+        component:()=>import('@/views/SetPrice/index.vue')
+      },
       configRoutes,
     ],
   },
